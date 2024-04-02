@@ -1,0 +1,10 @@
+name: ParkourUtil
+version: '${project.version}'
+main: me.padej.parkourutil.ParkourUtil
+api-version: '1.20'
+
+commands:
+  parkourutils:
+    description: Manage ParkourUtil features.
+    usage: /<command> <enable|disable>
+    permission: parkourutils.event
